@@ -1,14 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:15181d,100:262b33&height=150&section=header&text=AdityaG&fontSize=44&fontColor=57d6a3&animation=twinkling&fontAlignY=36&desc=Building%20local-first%20AI%20systems&descSize=15&descAlignY=56&descAlign=50" width="100%" />
+<a href="https://github.com/AdityaVG13">
+  <img src="assets/profile-header.svg" alt="AdityaG — building local-first AI systems" width="100%" />
+</a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=4000&pause=900&color=57D6A3&center=true&vCenter=true&width=680&lines=local-first+AI+tooling+%26+agent+memory;inference+infrastructure+that+ships;spec-driven+agent+loops+with+real+checks;context+compression+%26+model+routing" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3800&pause=1000&color=87A7BD&center=true&vCenter=true&width=640&lines=local-first+AI+tooling+%26+agent+memory;inference+that+ships;spec-driven+loops+with+real+checks;context+compression+%26+model+routing" alt="" />
 
-<br>
-
-<a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-15181d?style=for-the-badge&logo=github&labelColor=262b33&color=57d6a3" alt="GitHub"></a>
-<a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/links-beacons.ai-15181d?style=for-the-badge&labelColor=262b33&color=f2bc66" alt="beacons"></a>
-<a href="https://x.com/adityavg13"><img src="https://img.shields.io/badge/X-@adityavg13-15181d?style=for-the-badge&logo=x&labelColor=262b33&color=87a7bd" alt="X"></a>
+<p>
+  <a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-15181d?style=flat-square&logo=github&labelColor=262b33&color=57d6a3" alt="GitHub"></a>
+  <a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/beacons-adityavg13-15181d?style=flat-square&labelColor=262b33&color=f2bc66" alt="beacons"></a>
+  <a href="https://x.com/adityavg13"><img src="https://img.shields.io/badge/X-@adityavg13-15181d?style=flat-square&logo=x&labelColor=262b33&color=87a7bd" alt="X"></a>
+</p>
 
 </div>
 
