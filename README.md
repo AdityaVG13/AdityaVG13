@@ -16,7 +16,7 @@
 
 ## About
 
-I build AI tools and systems: agent memory, spec-driven task loops, and model routing. I care about software that holds up in daily use.
+Building AI tools and systems that hold up in daily use! 
 
 **Building now:** [cortex](https://github.com/AdityaVG13/cortex) · [gpr](https://github.com/AdityaVG13/gpr) · [Model-Switchboard](https://github.com/AdityaVG13/Model-Switchboard)
 
