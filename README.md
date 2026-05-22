@@ -36,7 +36,7 @@ I build **local-first AI tools**: persistent agent memory, spec-driven completio
 
 <h3>
   <a href="https://github.com/AdityaVG13/cortex">Cortex</a>
-  <img src="https://img.shields.io/github/stars/AdityaVG13/cortex?style=flat-square&label=stars&color=57d6a3&labelColor=262b33" alt="" align="right" />
+  <a href="https://github.com/AdityaVG13/cortex/stargazers"><img src="https://img.shields.io/github/stars/AdityaVG13/cortex?style=flat-square&label=stars&color=57d6a3&labelColor=262b33" alt="7 stars"></a>
 </h3>
 
 > Persistent shared memory and context compression for AI coding agents. Local-first Rust daemon with HTTP, MCP, and a desktop control center.
@@ -47,7 +47,7 @@ I build **local-first AI tools**: persistent agent memory, spec-driven completio
 
 <h3>
   <a href="https://github.com/AdityaVG13/Model-Switchboard">Model Switchboard</a>
-  <img src="https://img.shields.io/github/stars/AdityaVG13/Model-Switchboard?style=flat-square&label=stars&color=57d6a3&labelColor=262b33" alt="" align="right" />
+  <a href="https://github.com/AdityaVG13/Model-Switchboard/stargazers"><img src="https://img.shields.io/github/stars/AdityaVG13/Model-Switchboard?style=flat-square&label=stars&color=57d6a3&labelColor=262b33" alt="3 stars"></a>
 </h3>
 
 > Local Model Switchboard for Mac. Practical local model routing—not dashboard theater.
@@ -74,14 +74,14 @@ I build **local-first AI tools**: persistent agent memory, spec-driven completio
 
 ## Projects
 
-| | Project | What it is |
-| :---: | :--- | :--- |
-| 🧠 | [**cortex**](https://github.com/AdityaVG13/cortex) | Persistent shared memory and context compression for AI coding agents |
-| 📋 | [**gpr**](https://github.com/AdityaVG13/gpr) | Goal-driven PRD ratchet with real artifact completion checks |
-| 🔀 | [**Model-Switchboard**](https://github.com/AdityaVG13/Model-Switchboard) | Local model routing for Mac |
-| 🦀 | [**RustLibraries**](https://github.com/AdityaVG13/RustLibraries) | Python libraries ported to Rust |
-| 📚 | [**TweetKB**](https://github.com/AdityaVG13/TweetKB) | Organize and analyze Twitter bookmarks |
-| 📰 | [**TwitterArticles**](https://github.com/AdityaVG13/TwitterArticles) | Chrome extension to download Twitter articles |
+| Project | What it is |
+| :--- | :--- |
+| [**cortex**](https://github.com/AdityaVG13/cortex) | Persistent shared memory and context compression for AI coding agents |
+| [**gpr**](https://github.com/AdityaVG13/gpr) | Goal-driven PRD ratchet with real artifact completion checks |
+| [**Model-Switchboard**](https://github.com/AdityaVG13/Model-Switchboard) | Local model routing for Mac |
+| [**RustLibraries**](https://github.com/AdityaVG13/RustLibraries) | Python libraries ported to Rust |
+| [**TweetKB**](https://github.com/AdityaVG13/TweetKB) | Organize and analyze Twitter bookmarks |
+| [**TwitterArticles**](https://github.com/AdityaVG13/TwitterArticles) | Chrome extension to download Twitter articles |
 
 <details>
 <summary><strong>Inference workbenches</strong> — forks and experiments in LLM inference</summary>
