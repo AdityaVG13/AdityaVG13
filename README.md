@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/AdityaVG13">
-  <img src="https://raw.githubusercontent.com/AdityaVG13/AdityaVG13/main/assets/profile-banner-terminal.gif?v=3" alt="AdityaG agent workbench terminal" width="100%" />
+  <img src="assets/profile-banner-workbench.gif" alt="AdityaG agent workbench terminal" width="100%" />
 </a>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3800&pause=1001&color=9B7BB8&center=true&vCenter=true&width=640&lines=AI+tools+%26+systems;agent+memory+%26+context;model+routing;spec-driven+agent+workflows" alt="" />

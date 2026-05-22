@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build profile-banner.png (static) and profile-banner-terminal.gif."""
+"""Build profile-banner.png (static) and profile-banner-workbench.gif."""
 from __future__ import annotations
 import subprocess
 import tempfile
@@ -78,7 +78,7 @@ def build_terminal_gif() -> None:
     specs.extend([len(LINES)] * 6)
     specs.extend([0] * 3)
 
-    out = ASSETS / "profile-banner-terminal.gif"
+    out = ASSETS / "profile-banner-workbench.gif"
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
         pngs: list[Path] = []
