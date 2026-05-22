@@ -1,10 +1,10 @@
 <div align="center">
 
 <a href="https://github.com/AdityaVG13">
-  <img src="https://raw.githubusercontent.com/AdityaVG13/AdityaVG13/main/assets/profile-header.png" alt="AdityaG" width="100%" />
+  <img src="https://raw.githubusercontent.com/AdityaVG13/AdityaVG13/main/assets/profile-banner.png" alt="AdityaG" width="100%" />
 </a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3800&pause=1000&color=87A7BD&center=true&vCenter=true&width=640&lines=AI+tools+%26+systems;agent+memory+%26+context;model+routing;spec-driven+agent+workflows" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3800&pause=1001&color=87A7BD&center=true&vCenter=true&width=640&lines=AI+tools+%26+systems;agent+memory+%26+context;model+routing;spec-driven+agent+workflows" alt="" />
 
 <p>
   <a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-15181d?style=flat-square&logo=github&labelColor=262b33&color=57d6a3" alt="GitHub"></a>
