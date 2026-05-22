@@ -10,6 +10,8 @@
       <stop offset="35%" stop-color="#57d6a3" stop-opacity="0.55"/>
       <stop offset="65%" stop-color="#87a7bd" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#f2bc66" stop-opacity="0"/>
+      <animate attributeName="x1" values="0%;20%;0%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;80%;100%" dur="8s" repeatCount="indefinite"/>
     </linearGradient>
     <radialGradient id="glowLeft" cx="18%" cy="72%" r="28%">
       <stop offset="0%" stop-color="#57d6a3" stop-opacity="0.14"/>
@@ -26,14 +28,27 @@
 
   <rect width="1200" height="280" fill="url(#bg)"/>
   <rect width="1200" height="280" fill="url(#grid)"/>
-  <rect width="1200" height="280" fill="url(#glowLeft)"/>
-  <rect width="1200" height="280" fill="url(#glowRight)"/>
+  <rect width="1200" height="280" fill="url(#glowLeft)">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1200" height="280" fill="url(#glowRight)">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="7s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Corner accents (stay away from center text) -->
-  <path d="M 48 220 L 120 220" stroke="#57d6a3" stroke-width="2" opacity="0.35" stroke-linecap="round"/>
-  <path d="M 48 220 L 48 148" stroke="#57d6a3" stroke-width="2" opacity="0.35" stroke-linecap="round"/>
-  <path d="M 1152 60 L 1080 60" stroke="#87a7bd" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
-  <path d="M 1152 60 L 1152 132" stroke="#87a7bd" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+  <g opacity="0.35">
+    <path d="M 48 220 L 120 220" stroke="#57d6a3" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.2;0.55;0.2" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 48 220 L 48 148" stroke="#57d6a3" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.2;0.55;0.2" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1152 60 L 1080 60" stroke="#87a7bd" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.15;0.5;0.15" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 1152 60 L 1152 132" stroke="#87a7bd" stroke-width="2" stroke-linecap="round">
+      <animate attributeName="opacity" values="0.15;0.5;0.15" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
 
   <text x="600" y="118" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="58" font-weight="700" fill="#57d6a3" letter-spacing="-0.03em">AdityaG</text>
   <text x="600" y="154" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="500" fill="#c9d1d9" letter-spacing="0.14em">BUILDING AI SYSTEMS</text>
