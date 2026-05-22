@@ -89,18 +89,6 @@
 | Project | Notes | Stack |
 | --- | --- | --- |
 | [Twist-Stuff](https://github.com/AdityaVG13/Twist-Stuff) | Twist Space quest books and reference material. | Docs |
-| [Nomifactory-Scripts](https://github.com/AdityaVG13/Nomifactory-Scripts) | Multiblock scripts for Nomifactory CEu. | ZenScript |
-| [123Technology](https://github.com/AdityaVG13/123Technology) | Minecraft technology mod project. | Java |
-| [Applied-Energistics-2-Unofficial](https://github.com/AdityaVG13/Applied-Energistics-2-Unofficial) | Unofficial AE2 for Minecraft 1.7.10. | Java |
-| [BetterQuesting](https://github.com/AdityaVG13/BetterQuesting) | Questing mod source. | Java |
-| [ForestryCE](https://github.com/AdityaVG13/ForestryCE) | Forestry Community Edition source code. | Java |
-| [ForestryMC](https://github.com/AdityaVG13/ForestryMC) | Forestry Minecraft mod source code. | Java |
-| [GT-New-Horizons-Modpack](https://github.com/AdityaVG13/GT-New-Horizons-Modpack) | Progressive questing modpack for Minecraft 1.7.10 around GregTech. | Python |
-| [GT-Not-Leisure](https://github.com/AdityaVG13/GT-Not-Leisure) | GTNH-oriented modding work. | Java |
-| [GT5-Unofficial](https://github.com/AdityaVG13/GT5-Unofficial) | Decompiled and modified GT5.07.07 source. | Java |
-| [Programmable-Hatches-Mod](https://github.com/AdityaVG13/Programmable-Hatches-Mod) | GTNH addon for programmable hatches. | Java |
-| [time-crystal](https://github.com/AdityaVG13/time-crystal) | Replacement for the Minecraft 1.7.10 Torcherino mod. | Java |
-| [Twist-Space-Technology-Mod](https://github.com/AdityaVG13/Twist-Space-Technology-Mod) | Late-game GTNH content and modded elements. | Java |
 
 ## Working Style
 
