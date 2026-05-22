@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build profile-banner.png (static) and profile-banner-workbench.gif."""
+"""Build profile-banner-workbench.gif for the profile README."""
 from __future__ import annotations
 import subprocess
 import tempfile
@@ -99,15 +99,7 @@ def build_terminal_gif() -> None:
     print(f"terminal gif: {out}")
 
 
-def build_static_png() -> None:
-    src = ASSETS / "profile-banner.svg"
-    dst = ASSETS / "profile-banner.png"
-    render_svg(src, dst)
-    print(f"static png: {dst}")
-
-
 def main() -> None:
-    build_static_png()
     build_terminal_gif()
 
 
