@@ -1,15 +1,15 @@
 <div align="center">
 
 <a href="https://github.com/AdityaVG13">
-  <img src="https://raw.githubusercontent.com/AdityaVG13/AdityaVG13/main/assets/profile-banner.gif" alt="AdityaG" width="100%" />
+  <img src="https://raw.githubusercontent.com/AdityaVG13/AdityaVG13/main/assets/profile-banner-terminal.gif" alt="AdityaG agent workbench terminal" width="100%" />
 </a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3800&pause=1001&color=87A7BD&center=true&vCenter=true&width=640&lines=AI+tools+%26+systems;agent+memory+%26+context;model+routing;spec-driven+agent+workflows" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3800&pause=1001&color=9B7BB8&center=true&vCenter=true&width=640&lines=AI+tools+%26+systems;agent+memory+%26+context;model+routing;spec-driven+agent+workflows" alt="" />
 
 <p>
-  <a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-15181d?style=flat-square&logo=github&labelColor=262b33&color=57d6a3" alt="GitHub"></a>
-  <a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/beacons-adityavg13-15181d?style=flat-square&labelColor=262b33&color=f2bc66" alt="beacons"></a>
-  <a href="https://x.com/adityavg13"><img src="https://img.shields.io/badge/X-@adityavg13-15181d?style=flat-square&logo=x&labelColor=262b33&color=87a7bd" alt="X"></a>
+  <a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-2b3038?style=flat-square&logo=github&labelColor=3d4450&color=552583" alt="GitHub"></a>
+  <a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/beacons-adityavg13-2b3038?style=flat-square&labelColor=3d4450&color=fdb927" alt="beacons"></a>
+  <a href="https://x.com/adityavg13"><img src="https://img.shields.io/badge/X-@adityavg13-2b3038?style=flat-square&logo=x&labelColor=3d4450&color=94a3b8" alt="X"></a>
 </p>
 
 </div>
@@ -71,8 +71,8 @@ Goal-driven PRD ratchet for agent workflows. Work stays open until real artifact
 
 <div align="center">
 
-<a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-15181d?style=flat-square&logo=github&labelColor=262b33&color=57d6a3" alt="GitHub"></a>
-<a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/beacons.ai-adityavg13-15181d?style=flat-square&labelColor=262b33&color=f2bc66" alt="beacons"></a>
-<a href="https://x.com/adityavg13"><img src="https://img.shields.io/badge/X-@adityavg13-15181d?style=flat-square&logo=x&labelColor=262b33&color=87a7bd" alt="X"></a>
+<a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-2b3038?style=flat-square&logo=github&labelColor=3d4450&color=552583" alt="GitHub"></a>
+<a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/beacons.ai-adityavg13-2b3038?style=flat-square&labelColor=3d4450&color=fdb927" alt="beacons"></a>
+<a href="https://x.com/adityavg13"><img src="https://img.shields.io/badge/X-@adityavg13-2b3038?style=flat-square&logo=x&labelColor=3d4450&color=94a3b8" alt="X"></a>
 
 </div>
