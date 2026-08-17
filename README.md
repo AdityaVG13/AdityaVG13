@@ -1,78 +1,80 @@
 <div align="center">
 
 <a href="https://github.com/AdityaVG13">
-  <img src="assets/profile-banner-workbench.gif" alt="AdityaG agent workbench terminal" width="100%" />
+  <img src="assets/profile-banner.gif" alt="AdityaG: emath compiles mathematics to verified Rust. ZeroStack hub with TokenZero, GraphZero, and FSZero." width="100%" />
 </a>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3800&pause=1001&color=9B7BB8&center=true&vCenter=true&width=640&lines=AI+tools+%26+systems;agent+memory+%26+context;model+routing;spec-driven+agent+workflows" alt="" />
 
 <p>
   <a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-2b3038?style=flat-square&logo=github&labelColor=3d4450&color=552583" alt="GitHub"></a>
-  <a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/beacons-adityavg13-2b3038?style=flat-square&labelColor=3d4450&color=fdb927" alt="beacons"></a>
   <a href="https://x.com/adityavg13"><img src="https://img.shields.io/badge/X-@adityavg13-2b3038?style=flat-square&logo=x&labelColor=3d4450&color=94a3b8" alt="X"></a>
+  <a href="https://ko-fi.com/adityavg13"><img src="https://img.shields.io/badge/Ko--fi-adityavg13-2b3038?style=flat-square&logo=kofi&logoColor=white&labelColor=3d4450&color=fdb927" alt="Ko-fi"></a>
+  <a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/beacons-adityavg13-2b3038?style=flat-square&labelColor=3d4450&color=552583" alt="beacons"></a>
 </p>
 
 </div>
 
-## About
+I write systems that turn intent into something you can run, inspect, and prove. [emath](https://github.com/AdityaVG13/emath) compiles mathematics into Rust. [ZeroStack](https://github.com/AdityaVG13/zerostack) keeps agent tool output out of the model until it is needed, then returns the original bytes.
 
-Building AI tools and systems that hold up in daily use! 
+## Selected work
 
-**Building now:** [cortex](https://github.com/AdityaVG13/cortex) · [gpr](https://github.com/AdityaVG13/gpr) · [Model-Switchboard](https://github.com/AdityaVG13/Model-Switchboard)
+### 1. [emath](https://github.com/AdityaVG13/emath)
 
-## Start Here
+Write the mathematics you mean. emath compiles it into inspectable Rust.
 
-If you are exploring agent tooling or inference, these are the main repos.
+A `.emath` program can describe formulas, tensors, constraints, and goals. The compiler runs a deterministic pipeline (source, typed IR, resolution, generated Rust, Cargo artifact) and will not admit a result that fails `emath check` and `emath build --verify`.
 
-### [Cortex](https://github.com/AdityaVG13/cortex)
+`Rust` · `compiler` · `math`
 
-Persistent shared memory and context compression for AI coding agents. Rust daemon with HTTP, MCP, and a desktop control center.
+### 2. [ZeroStack](https://github.com/AdityaVG13/zerostack) (hub)
+
+Context infrastructure for coding agents. Three engines, one composition host, typed recoverable refs.
+
+TokenZero, GraphZero, and FSZero stay independent. ZeroStack defines the shared contracts and runs them in one process (`zsx`) so agents keep evidence without stuffing every intermediate byte into the model.
+
+| Engine | Role |
+| :--- | :--- |
+| [TokenZero](https://github.com/AdityaVG13/tokenzero) | Compact, deduplicate, and selectively expand tool output (`tz://`). Recovery-aware: savings are counted after the original bytes can be restored, not after they are thrown away. |
+| [GraphZero](https://github.com/AdityaVG13/graphzero) | Code graph for orientation, callers, blast radius, and decision memory (`gz://`). Public shortly. |
+| [FSZero](https://github.com/AdityaVG13/fszero) | Executable filesystem: live tree, search, controlled mutation, undo (`fz://`). Public shortly. |
+
+`Rust` · `RACC` · `CodeMode`
+
+### 3. [ast-sgrep](https://github.com/AdityaVG13/ast-sgrep)
+
+Hybrid lexical and AST graph search. ripgrep finds strings. ast-grep finds shapes. ast-sgrep finds intent.
+
+Local-first, 13 languages, no cloud embedding client. Ships as a standalone CLI and as a Pi package (`pi install npm:pi-ast-sgrep`).
+
+`Rust` · `code search` · `Pi`
+
+### 4. [Model Switchboard](https://github.com/AdityaVG13/Model-Switchboard)
+
+Mac menu bar for local LLM runtimes. One click activates a profile and stops everything else. A profile is green only after a real `/v1/models` probe (or your custom HTTP check) succeeds.
+
+llama.cpp, MLX, Ollama, vLLM, and the rest sit behind one OpenAI-compatible endpoint. SwiftUI, not Electron.
+
+`Swift` · `macOS` · `local inference`
+
+### 5. [Cortex](https://github.com/AdityaVG13/cortex)
+
+Persistent shared memory for coding agents. Local-first Rust daemon with HTTP, MCP, and a desktop control center. One memory, every tool. Data stays on the machine.
 
 `Rust` · `MCP` · `agent memory`
 
-### [Model Switchboard](https://github.com/AdityaVG13/Model-Switchboard)
-
-Model routing for Mac. Pick models and switch quickly across local and hosted backends.
-
-`Python` · `model routing` · `Mac`
-
-### [gpr](https://github.com/AdityaVG13/gpr)
-
-Goal-driven PRD ratchet for agent workflows. Work stays open until real artifacts pass checks.
-
-`Python` · `spec-driven` · `agent workflows`
-
-## Also Open Source
+## Also shipping
 
 | Project | What it is |
 | :--- | :--- |
-| [RustLibraries](https://github.com/AdityaVG13/RustLibraries) | Python libraries ported to Rust |
-| [TweetKB](https://github.com/AdityaVG13/TweetKB) | Organize and analyze Twitter bookmarks |
-| [TwitterArticles](https://github.com/AdityaVG13/TwitterArticles) | Chrome extension to download Twitter articles |
-
-<details>
-<summary><strong>Inference workbenches</strong> (forks and experiments)</summary>
-
-| Project | Notes |
-| :--- | :--- |
-| [llama.cpp](https://github.com/AdityaVG13/llama.cpp) | C/C++ LLM inference workbench |
-| [lucebox-hub](https://github.com/AdityaVG13/lucebox-hub) | Hand-tuned inference for consumer hardware |
-| [rvllm](https://github.com/AdityaVG13/rvllm) | Rust LLM inference / vLLM-style serving |
-| [vllm](https://github.com/AdityaVG13/vllm) | High-throughput LLM serving |
-
-</details>
-
-## Working Style
-
-- Use local, cloud, or hybrid setups depending on what the work needs.
-- Prefer artifacts, tests, and clear completion checks over vibes.
-- Move fast on experiments; move carefully on published work.
-- Treat agent systems as infrastructure, not demos.
+| [pi-stack](https://github.com/AdityaVG13/pi-stack) | Pi packages: papercuts friction log, deferred context engine. |
+| [TweetKB](https://github.com/AdityaVG13/TweetKB) | Private X bookmark knowledge base. Local SQLite, terminal-first, export to notes. |
+| [TwitterArticles](https://github.com/AdityaVG13/TwitterArticles) | Save X articles and long-form posts to Markdown, PDF, or DOCX on your machine. |
+| [outfit-skills](https://github.com/AdityaVG13/outfit-skills) | Proof-first agent skill packs. Each racket is a full protocol, not a prompt file. |
+| [grokplan](https://github.com/AdityaVG13/grokplan) | Adversarial planning. Tracker rows have to resist weak execution, not only look complete. |
 
 <div align="center">
 
 <a href="https://github.com/AdityaVG13"><img src="https://img.shields.io/badge/GitHub-AdityaVG13-2b3038?style=flat-square&logo=github&labelColor=3d4450&color=552583" alt="GitHub"></a>
-<a href="https://beacons.ai/adityavg13"><img src="https://img.shields.io/badge/beacons.ai-adityavg13-2b3038?style=flat-square&labelColor=3d4450&color=fdb927" alt="beacons"></a>
 <a href="https://x.com/adityavg13"><img src="https://img.shields.io/badge/X-@adityavg13-2b3038?style=flat-square&logo=x&labelColor=3d4450&color=94a3b8" alt="X"></a>
+<a href="https://ko-fi.com/adityavg13"><img src="https://img.shields.io/badge/Ko--fi-adityavg13-2b3038?style=flat-square&logo=kofi&logoColor=white&labelColor=3d4450&color=fdb927" alt="Ko-fi"></a>
 
 </div>
