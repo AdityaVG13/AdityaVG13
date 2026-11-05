@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Profile hero: emath compiles, ZeroStack refs light. First frame is the finished poster."""
+"""Profile hero: emath compiles, selected projects light up. First frame is the finished poster."""
 
 from __future__ import annotations
 
+import shutil
 import subprocess
 import tempfile
 from pathlib import Path
@@ -26,13 +27,25 @@ MUTED = (156, 168, 184)
 DIM = (88, 96, 110)
 
 MENLO = "/System/Library/Fonts/Menlo.ttc"
+FALLBACK = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
+FALLBACK_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"
 FRAME_MS = 360
 HOLD_POSTER = 10
 HOLD_END = 16
+LAST = 8  # stage at which every project pill is lit
+
+PROJECTS = [
+    ("ast-sgrep", "defs: callers:"),
+    ("Switchboard", "/v1/models"),
+    ("Cortex", "mcp memory"),
+    ("Continuum", "receipted"),
+]
 
 
 def fnt(size: int, *, bold: bool = False) -> ImageFont.FreeTypeFont:
-    return ImageFont.truetype(MENLO, size=size, index=1 if bold else 0)
+    if Path(MENLO).exists():
+        return ImageFont.truetype(MENLO, size=size, index=1 if bold else 0)
+    return ImageFont.truetype(FALLBACK_BOLD if bold else FALLBACK, size=size)
 
 
 def pill(draw: ImageDraw.ImageDraw, box: tuple[int, int, int, int], title: str, ref: str, on: bool) -> None:
@@ -72,24 +85,24 @@ def frame(stage: int) -> Image.Image:
     if stage >= 4:
         draw.text((44, 128), "verified", font=fnt(18, bold=True), fill=GOLD)
 
-    # ZeroStack hub row
-    draw.text((24, 188), "ZeroStack", font=fnt(12, bold=True), fill=MUTED if stage >= 5 else DIM)
+    # Selected projects row
+    draw.text((24, 188), "Selected work", font=fnt(12, bold=True), fill=MUTED if stage >= 5 else DIM)
     y = 210
-    w, h, gap = 232, 66, 14
-    x0 = 24
-    pill(draw, (x0, y, x0 + w, y + h), "TokenZero", "tz://", stage >= 5)
-    pill(draw, (x0 + w + gap, y, x0 + 2 * w + gap, y + h), "GraphZero", "gz://", stage >= 6)
-    pill(draw, (x0 + 2 * (w + gap), y, x0 + 3 * w + 2 * gap, y + h), "FSZero", "fz://", stage >= 7)
+    gap = 14
+    w, h = (736 - 3 * gap) // 4, 66
+    for i, (title, ref) in enumerate(PROJECTS):
+        x0 = 24 + i * (w + gap)
+        pill(draw, (x0, y, x0 + w, y + h), title, ref, stage >= 5 + i)
 
     return img
 
 
 def sequence() -> list[int]:
     """Poster first so GitHub's static first-frame still looks finished."""
-    seq = [7] * HOLD_POSTER
-    for s in range(1, 8):
+    seq = [LAST] * HOLD_POSTER
+    for s in range(1, LAST + 1):
         seq.extend([s] * (2 if s < 5 else 3))
-    seq.extend([7] * HOLD_END)
+    seq.extend([LAST] * HOLD_END)
     return seq
 
 
@@ -106,7 +119,7 @@ def main() -> None:
             paths.append(p)
         subprocess.run(
             [
-                "magick",
+                shutil.which("magick") or "convert",
                 "-delay",
                 str(FRAME_MS // 10),
                 "-loop",

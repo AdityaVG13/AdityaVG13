@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/AdityaVG13">
-  <img src="assets/profile-banner.gif" alt="AdityaG: emath compiles mathematics to verified Rust. ZeroStack hub with TokenZero, GraphZero, and FSZero." width="100%" />
+  <img src="assets/profile-banner.gif" alt="AdityaG: emath compiles mathematics to verified Rust. Selected work: ast-sgrep, Model Switchboard, Cortex, Continuum." width="100%" />
 </a>
 
 <p>
